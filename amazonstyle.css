@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#head{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(177, 106, 159);
+    display: flex;
+    justify-content: space-around;
+    }
+#amazon-logo:hover{
+    border: solid 2px;
+    border-color: aliceblue;
+    border-radius: 1%;
+}
+#amazon-logo{
+    height: 30px;
+    width: 100px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#fa-location-dot{
+    margin-top: 0.3rem;
+    display:block;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-overflow: initial;
+}
+#searchbar{size: 20px;
+    border: 5px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+#button1{
+    border-radius: left;
+    border-radius: 5px;
+    height: 2.2rem;
+    width: 2.5rem;
+}
+#button2{
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: yellow;
+}
+#signin{
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.subject{
+    height: 2rem;
+    color: white;
+    background-color: rgb(21, 39, 44);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content{
+    height: 350px;
+    background-color:rgb(152, 240, 247) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+.block-img{
+    height: 260px;
+    width: 260px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.box-content{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(245, 242, 248);
+}
+
+.hero-section{
+    height: 300px;
+    width: 100%;
+    background-image: url("hero.jpg");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    height: 2rem;
+    width: 80%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+}
+.footer-line{
+    margin: 0px;
+    padding: 0px;
+    height: 3rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 300px;
+    color: white;
+    background-color: rgb(29, 24, 24);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-all{
+    line-height: 1.5rem;
+    margin-top: 20px;
+    color: aliceblue;
+}
